@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Fashion Store</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div class="parte-superior">
+        <section class="loja">
+            <div class="container-logo">
+                <img src="./images/logo.png" alt="logo" class="logo">
+            </div>
+            <h2>LOJA DE ROUPAS</h2>
+            <div class="produtos-loja">
+
+            </div>
+        </section>
+        <section class="carrinho">
+            <h2 class="title-carrinho">CARRINHO DE COMPRAS</h2>
+            <div class="itens-carrinho">
+            
+            </div>
+            <div class="secao-compra">
+                <h3>Valor total da compra: R$<span class="total-compra"></span></h3>
+                <input type="text" placeholder="Valor Recebido" onchange=troco()>
+                <h3>Troco: R$ <span class="troco"></span></h3>
+                <div class="btn-venda" onclick=vender()>Realizar Venda</div>
+            </div>
+        </section>
+    </div>
+    <section class="estoque">
+        <h2 class="branco">ESTOQUE DA LOJA</h2>
+        <div class="produtos-estoque">
+            <div class="produto-estoque">
+
+            </div>
+        </div>
+    </section>
+
+    <script src="./script.js"></script>
+</body>
+</html>
