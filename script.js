@@ -287,7 +287,7 @@ async function criarProdutosCarrinho(){
     produtosEstoque.forEach(async (item) => {
       let id = item.id
       let nome = item.nome
-      let id_produto = item.id
+      let id_produto = item.id_produto
       let quantidade = item.qtd
       let tamanho = item.tamanho
       let produtosEstoque = await LerEstoque()
